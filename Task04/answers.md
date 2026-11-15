@@ -1,0 +1,5 @@
+# Task 4 · Constructors
+
+Facility owns the jagged occupancy grid and provides enter, exit and collection operations. Vehicle owns a normalized registration and a rate hook. Ticket stores immutable ID, vehicle, entered time, floor and slot. A pass exposes an eligibility test. The ticket's constructor without a pass delegates to the pass-aware overload with this(...); the full constructor assigns and validates the fields. A zero-argument constructor would produce an incomplete ticket and is useful only for objects with meaningful defaults. A copy constructor is unnecessary. Reprinting uses existing immutable values and the same ID, while a new entry must mint a fresh ID.
+
+A method-local reference commonly lives in a frame or register and refers to an object with heap semantics. The facility's grid also holds references. A static factory can validate first and then call a private constructor. A setter-based design must guard every use before all setters finish or expose only a validated builder result. Each approach costs O(n) time and O(n) retained space for n fixed-size tickets, with O(1) extra work and space per direct construction.
