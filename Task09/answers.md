@@ -1,0 +1,5 @@
+# Task 9 · Abstraction
+
+Vehicle is abstract because it shares registration state, equality and the billable-hours calculation and requires the concrete type to expose its rate. Chargeable represents a capability independent of family. ElectricCar can inherit Car and implement Chargeable and additional interfaces, such as a reporting capability. An interface default method can quote a fixed tariff from an abstract rate accessor. An interface static helper can validate nonnegative kWh at a common boundary.
+
+In the reverse design Vehicle can expose getRegistration and ratePerHour and supply an interface default fee method. An abstract ChargeableVehicle can own charging state. Interfaces have no instance fields or constructors, so each implementing branch needs its own identity state or a separate delegate. A charging class cannot also extend an independent Car class, so use composition or move Car behind an interface. Virtual and interface dispatch are both modeled as O(1), with unchanged O(1) per-instance storage order and possible extra delegation references.
