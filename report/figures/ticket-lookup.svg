@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="480" viewBox="0 0 880 480" role="img">
+<title>Parking ticket lookup by container</title>
+<rect width="880" height="480" fill="#ffffff"/>
+<g font-family="Arial, sans-serif">
+<text x="102" y="35" font-size="22" text-anchor="start" fill="#253141" font-weight="700">Parking ticket lookup by container</text>
+<text x="102" y="58" font-size="14" text-anchor="start" fill="#253141" font-weight="400">Median elapsed milliseconds per 20,000 lookups</text>
+<line x1="102" y1="376.0" x2="810" y2="376.0" stroke="#dbe4eb"/>
+<text x="90" y="381" font-size="12" text-anchor="end" fill="#253141" font-weight="400">0.1</text>
+<line x1="102" y1="278.0" x2="810" y2="278.0" stroke="#dbe4eb"/>
+<text x="90" y="283" font-size="12" text-anchor="end" fill="#253141" font-weight="400">1</text>
+<line x1="102" y1="180.0" x2="810" y2="180.0" stroke="#dbe4eb"/>
+<text x="90" y="185" font-size="12" text-anchor="end" fill="#253141" font-weight="400">10</text>
+<line x1="102" y1="82.0" x2="810" y2="82.0" stroke="#dbe4eb"/>
+<text x="90" y="87" font-size="12" text-anchor="end" fill="#253141" font-weight="400">100</text>
+<text x="102" y="400" font-size="12" text-anchor="middle" fill="#253141" font-weight="400">20</text>
+<text x="294" y="400" font-size="12" text-anchor="middle" fill="#253141" font-weight="400">150</text>
+<text x="810" y="400" font-size="12" text-anchor="middle" fill="#253141" font-weight="400">500</text>
+<text x="456" y="421" font-size="14" text-anchor="middle" fill="#253141" font-weight="400">Active tickets</text>
+<polyline points="102.0,291.5 293.8,238.7 810.0,181.3" fill="none" stroke="#085f9e" stroke-width="3"/>
+<circle cx="102.0" cy="291.5" r="5" fill="#085f9e"/>
+<circle cx="293.8" cy="238.7" r="5" fill="#085f9e"/>
+<circle cx="810.0" cy="181.3" r="5" fill="#085f9e"/>
+<circle cx="102" cy="440" r="4" fill="#085f9e"/>
+<text x="113" y="444" font-size="13" text-anchor="start" fill="#253141" font-weight="400">array</text>
+<polyline points="102.0,288.3 293.8,233.8 810.0,178.5" fill="none" stroke="#a8491f" stroke-width="3"/>
+<circle cx="102.0" cy="288.3" r="5" fill="#a8491f"/>
+<circle cx="293.8" cy="233.8" r="5" fill="#a8491f"/>
+<circle cx="810.0" cy="178.5" r="5" fill="#a8491f"/>
+<circle cx="342" cy="440" r="4" fill="#a8491f"/>
+<text x="353" y="444" font-size="13" text-anchor="start" fill="#253141" font-weight="400">array_list</text>
+<polyline points="102.0,335.0 293.8,335.4 810.0,313.0" fill="none" stroke="#258265" stroke-width="3"/>
+<circle cx="102.0" cy="335.0" r="5" fill="#258265"/>
+<circle cx="293.8" cy="335.4" r="5" fill="#258265"/>
+<circle cx="810.0" cy="313.0" r="5" fill="#258265"/>
+<circle cx="582" cy="440" r="4" fill="#258265"/>
+<text x="593" y="444" font-size="13" text-anchor="start" fill="#253141" font-weight="400">hash_map</text>
+</g></svg>

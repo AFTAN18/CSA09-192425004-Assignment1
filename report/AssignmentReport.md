@@ -154,5 +154,10 @@ The extension adds three model classes and an executable test without edits to t
 - [x] Task03 and Java 8 Task08 match the expected output.
 - [x] Original system and extension execute successfully.
 - [x] Raw lookup timings captured.
-- [ ] Compile the original Task08 syntax using Java 16+.
-- [ ] Capture screenshots and verify the published repository link.
+- [x] Compiled the original Task08 with Temurin 17.0.21 and verified all four output lines.
+- [x] Captured genuine execution PNGs and verified the published repository link.
+
+
+## Measured comparisons
+
+![ticket lookup](figures/ticket-lookup.svg)
