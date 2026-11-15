@@ -4,7 +4,7 @@ Design, Implement and Validate an Object-Oriented Model for a Campus Smart-Parki
 
 Aftan Faiz · 192425004 · CO1
 
-GitHub repository link pending verification.
+GitHub repository [CSA09-192425004-Assignment1](https://github.com/AFTAN18/CSA09-192425004-Assignment1).
 
 ## Task 1 · Problem analysis
 
