@@ -1,19 +1,20 @@
-# Task12
+# Task12 · Task 12 · Adaptation
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md) · [Logs and measurements](evidence)
 
-Unequal floors 2,3,4,5,6, e-bike and van timing, valid and expired visitor passes.
+## Screenshots
 
-Build with the [repository instructions](../README.md), then execute from that repository root.
+![adaptation run](screenshots/adaptation_run.png)
 
-```powershell
-java -cp build parking.app.AdaptationTest
-```
+![compilation success](screenshots/compilation_success.png)
 
-- [tests.txt](evidence/tests.txt)
+![AdaptationTest code](screenshots/AdaptationTest_code.png)
 
-## Genuine execution captures
+<details>
+<summary>More captures</summary>
 
-![adaptation run](evidence/adaptation_run.png)
+![DeliveryVan code](screenshots/DeliveryVan_code.png)
 
-![compilation success](evidence/compilation_success.png)
+![EBike code](screenshots/EBike_code.png)
+
+</details>

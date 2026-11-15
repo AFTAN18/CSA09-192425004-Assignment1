@@ -1,7 +1,7 @@
-# Task05
+# Task05 · Task 5 · Static members
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md)
 
-Two facility instances and successive process-wide ticket IDs.
+This design is exercised in [Task11](../Task11/README.md).
 
-Execution evidence is shared with [Task11](../Task11/README.md).
+![Supporting implementation](../Task11/screenshots/parking_tests_run.png)

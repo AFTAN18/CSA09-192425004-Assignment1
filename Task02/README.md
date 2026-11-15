@@ -1,7 +1,7 @@
-# Task02
+# Task02 · Task 2 · Data representation
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md)
 
-Floor sizes and integer-duration fee boundaries.
+This design is exercised in [Task03](../Task03/README.md).
 
-Execution evidence is shared with [Task03](../Task03/README.md).
+![Supporting implementation](../Task03/screenshots/ParkingFacility_run.png)

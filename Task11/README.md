@@ -1,24 +1,30 @@
-# Task11
+# Task11 · Task 11 · Implementation and tests
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md) · [Logs and measurements](evidence)
 
-Facilities 1×20, 3×50, 5×100, invalid and duplicate operations, and a daily collection of INR 260. Lookup seed 31.
+## Screenshots
 
-Build with the [repository instructions](../README.md), then execute from that repository root.
+![parking tests run](screenshots/parking_tests_run.png)
 
-```powershell
-java -cp build parking.app.ParkingTest
-java -cp build parking.app.TicketLookupBenchmark
-```
+![compilation success](screenshots/compilation_success.png)
 
-- [lookup.csv](evidence/lookup.csv)
-- [medians.md](evidence/medians.md)
-- [tests.txt](evidence/tests.txt)
+![Facility code](screenshots/Facility_code.png)
 
-## Genuine execution captures
+<details>
+<summary>More captures</summary>
 
-![compilation success](evidence/compilation_success.png)
+![lookup benchmark run](screenshots/lookup_benchmark_run.png)
 
-![lookup benchmark run](evidence/lookup_benchmark_run.png)
+![parking invalid requests run](screenshots/parking_invalid_requests_run.png)
 
-![parking tests run](evidence/parking_tests_run.png)
+![ParkingTest code](screenshots/ParkingTest_code.png)
+
+![ParkingTest code main](screenshots/ParkingTest_code_main.png)
+
+![Ticket code](screenshots/Ticket_code.png)
+
+![TicketLookupBenchmark code](screenshots/TicketLookupBenchmark_code.png)
+
+![Vehicle code](screenshots/Vehicle_code.png)
+
+</details>

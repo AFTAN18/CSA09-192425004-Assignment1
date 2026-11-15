@@ -1,19 +1,18 @@
-# Task03
+# Task03 · Task 3 · Control logic
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md) · [Logs and measurements](evidence)
 
-Two floors with capacities 2 and 1. Four registration requests, an invalid and repeated release, then reallocation.
+## Screenshots
 
-Build with the [repository instructions](../README.md), then execute from that repository root.
+![ParkingFacility run](screenshots/ParkingFacility_run.png)
 
-```powershell
-java -cp build ParkingFacility
-```
+![compilation success](screenshots/compilation_success.png)
 
-- [run.txt](evidence/run.txt)
+![ParkingFacility code](screenshots/ParkingFacility_code.png)
 
-## Genuine execution captures
+<details>
+<summary>More captures</summary>
 
-![compilation success](evidence/compilation_success.png)
+![ParkingFacility code main](screenshots/ParkingFacility_code_main.png)
 
-![ParkingFacility run](evidence/ParkingFacility_run.png)
+</details>

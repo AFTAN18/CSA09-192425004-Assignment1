@@ -1,7 +1,7 @@
-# Task07
+# Task07 · Task 7 · Overriding
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md)
 
-Parking rates 10 and 30 INR/hour, and independent registration comparisons.
+This design is exercised in [Task08](../Task08/README.md).
 
-Execution evidence is shared with [Task08](../Task08/README.md).
+![Supporting implementation](../Task08/screenshots/FeeDemo_exact_run.png)

@@ -1,7 +1,7 @@
-# Task10
+# Task10 · Task 10 · Encapsulation
 
-[Written answers](ANSWERS.md) · [Test input](input/README.md)
+[Full answer](ANSWERS.md) · [Inputs](input/README.md)
 
-Package boundaries and invalid coordinates, duration and registration.
+This design is exercised in [Task11](../Task11/README.md).
 
-Execution evidence is shared with [Task11](../Task11/README.md).
+![Supporting implementation](../Task11/screenshots/parking_tests_run.png)
